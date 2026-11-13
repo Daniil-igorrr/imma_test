@@ -1,0 +1,12 @@
+g++-13 -std=c++11 -Wall -Wextra -O2 -o bin/main src/main.cc
+
+valgrind --leak-check=full ./archivo
+
+
+
+
+
+----------EJS-----------------
+double mediaDatosExtra() const;
+
+bool intercambiaDatosExtra(pos1,pos2);
